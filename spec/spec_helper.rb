@@ -39,4 +39,6 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+  # Add the Capybara domain specific language to make tests work.
+  config.include Capybara::DSL
 end
