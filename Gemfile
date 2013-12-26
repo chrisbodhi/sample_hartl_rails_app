@@ -20,6 +20,7 @@ group :development, :test do
   gem 'childprocess', '0.3.6'
   gem 'better_errors', '1.1.0'
   gem 'binding_of_caller', '0.7.2'
+  gem 'growl', '1.0.3'
 end
 
 group :test do
@@ -30,7 +31,6 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 
   # Uncomment this line on OS X.
-  gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
   # gem 'libnotify', '0.8.0'
